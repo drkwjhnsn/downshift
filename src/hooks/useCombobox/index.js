@@ -24,6 +24,7 @@ import * as stateChangeTypes from './stateChangeTypes'
 useCombobox.stateChangeTypes = stateChangeTypes
 
 function useCombobox(userProps = {}) {
+  console.log('testing')
   validatePropTypes(userProps, useCombobox)
   // Props defaults and destructuring.
   const props = {
